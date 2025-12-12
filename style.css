@@ -1,0 +1,44 @@
+body {
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), /* camada escura */
+        url("http://www.ticket.com.br/blog/wp-content/uploads/sites/5/2018/06/mundial-de-futebol.jpg");
+    background-size: cover;       /* imagem cobre a tela */
+    background-position: center;  /* centraliza */
+    background-attachment: fixed; /* efeito bonito (parallax leve) */
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #fff;   /* texto branco para contraste */
+    padding: 20px;
+}
+
+/* MENU */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.5); /* fundo escuro transparente */
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* IMAGENS INTERNAS */
+.img-ajustada {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #fff;
+}
